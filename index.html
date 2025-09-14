@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio website</title>
+  <link rel="stylesheet" href="./style.css" />
+  <!--icons-->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/256/3616/3616770.png" />
+  <!---->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="active">
+    <a href="#" class="logo">Jyoti.</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav>
+      <a href="#" class="active" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('services')">Services </a>
+      <a href="#" onclick="showSection('resume')">Resume</a>
+      <a href="#" onclick="showSection('portfolio')">Portfolio</a>
+      <a href="#" onclick="showSection('contact')">Contact</a>
+    </nav>
+  </header>
+
+  <!--bars background-->
+
+  <div class="bars-box active">
+    <div class="bar" style="--i:6;"></div>
+    <div class="bar" style="--i:5;"></div>
+    <div class="bar" style="--i:4;"></div>
+    <div class="bar" style="--i:3;"></div>
+    <div class="bar" style="--i:2;"></div>
+    <div class="bar" style="--i:1;"></div>
+  </div>
+
+
+  <!--home section-->
+  <section class="section active" id="home">
+    <div class="home">
+      <div class="home-detail">
+        <h1>Jyoti Joshi</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-text="Coder">Coder</span>
+          <span style="--i: 3" data-text="Designer">Designer</span>
+          <span style="--i: 2" data-text="Content Creator">Content Creator</span>
+          <span style="--i: 1" data-text="Social Media Handler">Social Media Handler</span>
+        </h2>
+        <p>
+          I’m Jyoti, a creative and detail-oriented Graphic Designer,
+           Social Media Marketer, Web Developer,
+            and Content Creator with experience in designing logos,
+             newsletters, cards, and websites using Canva. I have also created engaging
+              Instagram and Facebook posts that enhance brand visibility and audience engagement.
+               My goal is to deliver visually appealing designs, effective marketing strategies, 
+              and user-friendly web experiences to help brands grow and connect with their audience.
+        </p>
+        <div class="btn-sci">
+          <a href="/images/Jyoti-Joshi-CV.pdf" class="btn">Download CV</a>
+          <div class="sci">
+            <a href="#"><i class="bx bxl-discord"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Joshi356"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <!--img-->
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="images/IMG20240831212758~2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--services section-->
+  <section class="section" id="services">
+    <div class="services">
+      <h2 class="heading">My<span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"> <i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web development</h3>
+          <p>Im a web developer</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href="#"> <i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Graphic Designer</h3>
+          <p>Im a web developer</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxs-paint"></i>
+            <a href="#"> <i class="bx bx-arrow-back"></i> </a>
+          </div>
+          <h3>UI/UX Developer</h3>
+          <p>Im a web developer</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-trending-up"></i>
+            <a href="#"> <i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>SEO</h3>
+          <p>Im a web developer</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-slideshow"></i>
+            <a href="#"> <i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Video editing</h3>
+          <p>Im a web developer</p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-camera"></i>
+            <a href="#"> <i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Photography</h3>
+          <p>Im a web developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--resume section-->
+  <section class="section" id="resume">
+    <div class="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why hire me?</h2>
+          <p class="desc">This is Experience Section..</p>
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">my <span> Experience</span></h2>
+            <p class="DESC">This is Experience Section..</p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year"> 2025 - present</p>
+                <h3> Frontend developer</h3>
+                <p>company: Scripteco Technologies</p>
+                <p>Duration: 1 june 2025 to 15 july 2025 </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year"> 2024</p>
+                <h3>Lab Instructor</h3>
+                <p>University Name: Saraswati College of Engineering </p>
+                <p>Duration: 1 january 2025 to 30 may 2025</p>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <div class="resume-detail education">
+            <h2 class="heading">my <span> Education</span></h2>
+            <p class="DESC">About My Education</p>
+            <div class="resume-list">
+
+              <div class="resume-item">
+                <p class="year">2020-2025</p>
+                <h3>Bachelor of Engineering</h3>
+                <p class="company">Information Technology</p>
+                <p>Saraswati College Of Engineering</p>
+              </div>
+              
+
+              <div class="resume-item">
+                <p class="year">2024</p>
+                <h3>Diploma</h3>
+                <p class="company">Information Technology</p>
+                <p>D.Y Patil College, Nerul</p>
+              </div>
+
+              
+              
+
+              
+            </div>
+          </div>
+
+          <div class="resume-detail skills">
+            <h2 class="heading">my <span> Skills</span></h2>
+            <p class="DESC">Lorem ipsum dolar sit amet,consectetur..</p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class='bx bxl-javascript'></i>
+                <span>javascript</span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxs-file-css'></i>
+                <span>CSS</span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxl-html5'></i>
+                <span>HTML</span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxl-django'></i>
+                <span>DJango</span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxl-c-plus-plus'></i>
+                <span>C++</span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxl-java'></i>
+                <span>java</span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxl-docker'></i>
+                <span>DOCKER</span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxl-react'></i>
+                <span>reactjs/span>
+              </div>
+
+              <div class="resume-item">
+                <i class='bx bxl-nodejs'></i>
+                <span>NODEJS</span>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About<span> Me</span></h2>
+            <p class="DESC">this is about me section</p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name <span>Jyoti Joshi</span></p>
+              </div>
+
+
+
+              <div class="resume-item">
+                <p>Gender<span>Female</span></p>
+              </div>
+
+
+              <div class="resume-item">
+                <p>Experience<span>Bachelors of Engineeering</span></p>
+              </div>
+
+
+              <div class="resume-item">
+                <p>Phone No<span>{+91} 8454089951</span></p>
+              </div>
+
+
+              <div class="resume-item">
+                <p>Address <span>Navi mumbai</span></p>
+              </div>
+
+
+              <div class="resume-item">
+                <p>Experience<span>Internship in Web development</span></p>
+              </div>
+
+
+              <div class="resume-item">
+                <p>language<span>marathi,hindi,english</span></p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--portfolio section-->
+  <section class="section" id="portfolio">
+    <div class="portfolio ">
+      <h2 class="heading">Latest <span>project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>E-Commerce website</h3>
+            <p>project made by using html,css,js,Json...</p>
+            <div class="tech">
+              <p>html, css, javascript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-left-arrow-alt'></i> <span>live project</span></a>
+              <a href="https://github.com/Joshi356"><i class='bx bxl-github'></i><span>github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Movie Search Website</h3>
+            <p>project made by using html,css,js,Json...</p>
+            <div class="tech">
+              <p>html, css, javascript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-left-arrow-alt'></i> <span>live project</span></a>
+              <a href="https://github.com/Joshi356"><i class='bx bxl-github'></i><span>github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+             <h3>Graphic Designer</h3>
+            <p>project made by using Canva</p>
+            <div class="tech">
+              <p>Canva</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-left-arrow-alt'></i> <span>live project</span></a>
+              <a href="https://github.com/Joshi356"><i class='bx bxl-github'></i><span>github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+             <h3>Graphic Designer</h3>
+            <p>project made by using Canva</p>
+            <div class="tech">
+              <p>Canva</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-left-arrow-alt'></i> <span>live project</span></a>
+              <a href="https://github.com/Joshi356"><i class='bx bxl-github'></i><span>github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">05</p>
+             <h3>Graphic Designer</h3>
+            <p>project made by using Canva</p>
+            <div class="tech">
+              <p>Canva</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-left-arrow-alt'></i> <span>live project</span></a>
+              <a href="https://github.com/Joshi356"><i class='bx bxl-github'></i><span>github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">06</p>
+            <h3>Graphic Designer</h3>
+            <p>project made by using Canva</p>
+            <div class="tech">
+              <p>Canva</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-left-arrow-alt'></i> <span>live project</span></a>
+              <a href="https://github.com/Joshi356"><i class='bx bxl-github'></i><span>github Repository</span></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="portfolio-box">
+          <!--carousel images-->
+          <div class="portfolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="images/e-commerce.PNG">
+              </div>
+
+              <div class="img-item">
+                <img src="images/movie.PNG">
+              </div>
+
+              <div class="img-item">
+                <img src="images/food flyer.PNG">
+              </div>
+
+              <div class="img-item">
+                <img src="images/strawberrypic.PNG">
+                
+              </div>
+
+              <div class="img-item">
+                <img src="images/sareeshop.PNG">
+              </div>
+
+              <div class="img-item">
+                <img src="images/invite.PNG">
+              </div>
+            </div>
+          </div>
+          <div class="navigation">
+            <button class="arrow-left" id="arrLeft"> <i class='bx bx-chevron-left'></i></button>
+            <button class="arrow-right" id="arrRight"> <i class='bx bx-chevron-right'></i></button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--contact section-->
+
+  <section class="section" id="contact">
+    <div class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Lets work together</h2>
+          <p class="desc">hello this is me...</p>
+          <div class="contact-detail">
+            <i class='bx bxs-phone'></i>
+            <div class="detail">
+              <p>phone</p>
+              <p>(+91) 8454089952</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class='bx bxs-phone'></i>
+            <div class="detail">
+              <p>phone</p>
+              <p>(+91) 8454089951</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class='bx bx-envelope'></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>jyotijjoshi284221@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class='bx bx-map'></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>mumbai</p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">contact <span>me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required>
+              <input type="text" placeholder="Email Address" required>
+              <input type="text" placeholder="Phone Number" required>
+              <input type="text" placeholder="Email Subject" required>
+              <textarea name="submit" id="" placeholder="your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- customjs -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
